@@ -3,6 +3,7 @@ from gurobipy import GRB
 
 def rebalancing_model(T, H, L, cab_id, station_id,R)
     p = 0.1
+    # p is a user-defined variable 
     model_r = gp.Model('alex wallar rebalancing model')
 
     # variable data structure
